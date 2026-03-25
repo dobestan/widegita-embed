@@ -13,6 +13,11 @@
   <meta property="og:url" content="https://widget.widegita.com">
   <meta property="og:type" content="website">
 
+  <!-- Fonts: Literata (scripture demos) + Geist Sans (UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&family=Geist:wght@400;500;600;700&display=swap">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -21,6 +26,10 @@
         extend: {
           colors: {
             accent: '#EA580C',
+          },
+          fontFamily: {
+            sans: ['Geist', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Literata', 'Georgia', 'Times New Roman', 'serif'],
           }
         }
       }
@@ -75,6 +84,15 @@
   <script src="https://cdn.jsdelivr.net/npm/widegita-embed@1/dist/embed.min.js"></script>
 
   <style>
+    /* WideHoly Design System — Scripture Ribbon Signature */
+    .scripture-ribbon {
+      border-left: 4px solid #EA580C;
+      padding-left: 1rem;
+    }
+    [x-cloak] { display: none !important; }
+    /* Dark mode FOUC prevention */
+    .dark { color-scheme: dark; }
+
     :root { --accent: #EA580C; }
     .accent-text { color: var(--accent); }
     .accent-bg { background-color: var(--accent); }
