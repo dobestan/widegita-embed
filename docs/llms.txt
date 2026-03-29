@@ -1,0 +1,28 @@
+# WideGita Embed Widget
+
+> Embeddable WideGita widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/widegita-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://widegita.com
+- Widget docs: https://widget.widegita.com
+- npm: https://www.npmjs.com/package/widegita-embed
+- GitHub: https://github.com/dobestan/widegita-embed
+- API: https://widegita.com/developers/
+
+## WideHoly Widget Family
+
+- [WideHoly Widget](https://widget.wideholy.com)
+- [WideBible Widget](https://widget.widebible.com)
+- [WideQuran Widget](https://widget.widequran.com)
+- [WideTorah Widget](https://widget.widetorah.com)
+- [WideSutra Widget](https://widget.widesutra.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
