@@ -1,21 +1,50 @@
 # WideGita Embed Widget
 
-> Embeddable WideGita widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Scripture platform. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/widegita-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/widegita-embed@1/dist/embed.min.js"></script>
+<div data-widegita="verse" data-slug="example"></div>
+```
+
+## Available Widget Types (6)
+
+- verse: `data-widegita="verse"`
+- chapter: `data-widegita="chapter"`
+- compare: `data-widegita="compare"`
+- person: `data-widegita="person"`
+- search: `data-widegita="search"`
+- votd: `data-widegita="votd"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-widegita="verse" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/widegita-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://widegita.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://widegita.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://widegita.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://widegita.com
 - Widget docs: https://widget.widegita.com
-- npm: https://www.npmjs.com/package/widegita-embed
-- GitHub: https://github.com/dobestan/widegita-embed
-- API: https://widegita.com/developers/
+- API documentation: https://widegita.com/developers/
+- npm package: https://www.npmjs.com/package/widegita-embed
+- GitHub: https://github.com/fyipedia/widegita-embed
 
-## WideHoly Widget Family
+## WideHoly Widget Network
 
 - [WideHoly Widget](https://widget.wideholy.com)
 - [WideBible Widget](https://widget.widebible.com)
