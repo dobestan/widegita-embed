@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# WideGita Embed Widget
+# Main site: https://widegita.com
+# Widget docs: https://widget.widegita.com
+# npm: https://www.npmjs.com/package/widegita-embed
